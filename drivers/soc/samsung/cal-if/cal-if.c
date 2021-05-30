@@ -273,6 +273,11 @@ int cal_dfs_get_rate_asv_table(unsigned int id,
 			table[idx].volt=1300000;
 			volt[idx]=1300000;//1143750
 			}
+	if(table[idx].rate==2288000||rate[idx]==2288000)
+			{
+			table[idx].volt=1200000;
+			volt[idx]=1200000;//1143750
+			}
 		if(table[idx].rate==1898000||rate[idx]==1898000){
 			table[idx].volt=1300000;
 			volt[idx]=1300000;
